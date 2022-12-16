@@ -10,7 +10,7 @@
     "test": "mocha",
     "build-exec": "npm run build && npm run exec",
     "build-test": "npm run build && npm run test",
-    "test-other": "mocha --timeout 10000 --reporter mochawesome --reporter-options reportDir=report -r tsconfig-paths/register -r ts-node/register src/test/*.ts"
+    "test-other": "mocha --timeout 10000 --reporter mochawesome --reporter-options reportDir=report -r ts-node/register test/*.ts"
   },
   "repository": {
     "type": "git",
